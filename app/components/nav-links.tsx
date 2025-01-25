@@ -1,7 +1,6 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
-import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useRouterWrapper } from "../provider/RouterWrapperProvider";
 import ExtendedLink from "./ExtendedLink";
 

@@ -1,6 +1,7 @@
 {
   "name": "nextjs-rsc-example",
   "version": "0.1.0",
+  "packageManager": "pnpm@9.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,14 +11,14 @@
   },
   "dependencies": {
     "framer-motion": "^11.3.30",
-    "next": "14.2.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.15",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
