@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import {
   NavigationDirection,
   useRouterWrapper,
-} from "./provider/RouterWrapperProvider";
+} from "../provider/RouterWrapperProvider";
 
 export default function Template({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();

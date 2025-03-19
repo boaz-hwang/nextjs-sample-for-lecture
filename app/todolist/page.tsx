@@ -1,5 +1,5 @@
-import ErrorBoundary from "../components/ErrorBoundary";
-import TodoListContainer from "../components/TodoListContainer";
+import ErrorBoundary from "../_components/ErrorBoundary";
+import TodoListContainer from "../_components/TodoListContainer";
 
 export default function Index() {
   return (

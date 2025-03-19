@@ -1,9 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
-import { NavLinks } from "@/app/components/nav-links";
 import "./globals.css";
-import AnimationProvider from "./provider/AnimationProvider";
-import { RouterWrapperProvider } from "./provider/RouterWrapperProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,12 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <RouterWrapperProvider>
-          <AnimationProvider>
-            <NavLinks />
-            <main>{children}</main>
-          </AnimationProvider>
-        </RouterWrapperProvider>
+        <main>{children}</main>
       </body>
     </html>
   );
