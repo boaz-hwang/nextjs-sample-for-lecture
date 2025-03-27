@@ -3,7 +3,7 @@ import {
   DASHBOARD_PATHNAME,
   FETCHING_PARALLEL_PATHNAME,
   FETCHING_PATHNAME,
-  FETCHING_SEQUENTIAL_PATHNAME,
+  FETCHING_PRELOAD_PATHNAME,
   PAGE_TRANSITION_PATHNAME,
 } from "@/src/constant/pathname";
 
@@ -26,19 +26,19 @@ export default function Home() {
         <h1 className="text-xl font-bold mb-4">데이터 패칭 테스트</h1>
         <Link href={FETCHING_PATHNAME}>
           <button className="px-4 py-2 bg-blue-500 text-white rounded">
-            데이터 패칭 테스트
-          </button>
-        </Link>
-
-        <Link href={FETCHING_SEQUENTIAL_PATHNAME}>
-          <button className="px-4 py-2 bg-blue-500 text-white rounded">
-            순차 데이터 패칭 테스트
+            Data Fetching
           </button>
         </Link>
 
         <Link href={FETCHING_PARALLEL_PATHNAME}>
           <button className="px-4 py-2 bg-blue-500 text-white rounded">
-            병렬 데이터 패칭 테스트
+            Parallel Data Fetching
+          </button>
+        </Link>
+
+        <Link href={FETCHING_PRELOAD_PATHNAME}>
+          <button className="px-4 py-2 bg-blue-500 text-white rounded">
+            Preload Data Fetching
           </button>
         </Link>
       </div>

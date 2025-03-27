@@ -5,5 +5,5 @@ export const PAGE_TRANSITION_SETTINGS_PATHNAME = "/page-transition/settings";
 export const DASHBOARD_PATHNAME = "/dashboard";
 
 export const FETCHING_PATHNAME = "/fetching";
-export const FETCHING_SEQUENTIAL_PATHNAME = "/fetching-patterns/sequential";
-export const FETCHING_PARALLEL_PATHNAME = "/fetching-patterns/parallel";
+export const FETCHING_PARALLEL_PATHNAME = "/fetching-pattern/parallel";
+export const FETCHING_PRELOAD_PATHNAME = "/fetching-pattern/preload";

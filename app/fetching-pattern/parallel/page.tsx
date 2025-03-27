@@ -24,16 +24,16 @@ export default async function Page() {
     <div className="flex gap-4">
       <div className="flex flex-col gap-4">
         <h1>CARS</h1>
-        {/* <Suspense fallback={<div>Loading Cars...</div>}> */}
-        <CarList />
-        {/* </Suspense> */}
+        <Suspense fallback={<div>Loading Cars...</div>}>
+          <CarList />
+        </Suspense>
       </div>
 
       <div className="flex flex-col gap-4">
         <h1>PRODUCTS</h1>
-        {/* <Suspense fallback={<div>Loading Products...</div>}> */}
-        <ProductList />
-        {/* </Suspense> */}
+        <Suspense fallback={<div>Loading Products...</div>}>
+          <ProductList />
+        </Suspense>
       </div>
     </div>
   );
