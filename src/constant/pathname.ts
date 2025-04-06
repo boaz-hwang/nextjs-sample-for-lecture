@@ -7,3 +7,5 @@ export const DASHBOARD_PATHNAME = "/dashboard";
 export const FETCHING_PATHNAME = "/fetching";
 export const FETCHING_PARALLEL_PATHNAME = "/fetching-pattern/parallel";
 export const FETCHING_PRELOAD_PATHNAME = "/fetching-pattern/preload";
+
+export const PASS_FUNCTION_PATHNAME = "/pass-function";

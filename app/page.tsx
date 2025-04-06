@@ -5,6 +5,7 @@ import {
   FETCHING_PATHNAME,
   FETCHING_PRELOAD_PATHNAME,
   PAGE_TRANSITION_PATHNAME,
+  PASS_FUNCTION_PATHNAME,
 } from "@/src/constant/pathname";
 
 export default function Home() {
@@ -39,6 +40,12 @@ export default function Home() {
         <Link href={FETCHING_PRELOAD_PATHNAME}>
           <button className="px-4 py-2 bg-blue-500 text-white rounded">
             Preload Data Fetching
+          </button>
+        </Link>
+
+        <Link href={PASS_FUNCTION_PATHNAME}>
+          <button className="px-4 py-2 bg-blue-500 text-white rounded">
+            Pass Function
           </button>
         </Link>
       </div>
