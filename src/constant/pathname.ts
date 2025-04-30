@@ -9,3 +9,4 @@ export const FETCHING_PARALLEL_PATHNAME = "/fetching-pattern/parallel";
 export const FETCHING_PRELOAD_PATHNAME = "/fetching-pattern/preload";
 
 export const PASS_FUNCTION_PATHNAME = "/pass-function";
+export const PASS_SERVER_COMPONENT_PATHNAME = "/pass-server-component";

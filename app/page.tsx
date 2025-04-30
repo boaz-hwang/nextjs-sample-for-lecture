@@ -6,6 +6,7 @@ import {
   FETCHING_PRELOAD_PATHNAME,
   PAGE_TRANSITION_PATHNAME,
   PASS_FUNCTION_PATHNAME,
+  PASS_SERVER_COMPONENT_PATHNAME,
 } from "@/src/constant/pathname";
 
 export default function Home() {
@@ -46,6 +47,13 @@ export default function Home() {
         <Link href={PASS_FUNCTION_PATHNAME}>
           <button className="px-4 py-2 bg-blue-500 text-white rounded">
             Pass Function
+          </button>
+        </Link>
+
+        <h1 className="text-xl font-bold mb-4">렌더링 테스트</h1>
+        <Link href={PASS_SERVER_COMPONENT_PATHNAME}>
+          <button className="px-4 py-2 bg-blue-500 text-white rounded">
+            Pass Server Component
           </button>
         </Link>
       </div>
